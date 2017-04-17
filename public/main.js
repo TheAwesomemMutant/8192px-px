@@ -71,8 +71,8 @@ viewport.tileX = 0;
 viewport.tileY = 0;
 
 viewport.canvas = document.createElement('canvas');
-viewport.canvas.width = 2;
-viewport.canvas.height = 2;
+viewport.canvas.width = 500;
+viewport.canvas.height = 500;
 
 window.ondblclick = function dblclick(event) {
   if (event.button == 0) {
