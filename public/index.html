@@ -1,10 +1,15 @@
 <!doctype html>
 <html lang="en" class="root">
   <head>
+  <link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <title>Compix - Derpzy.Ml</title>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>.async-hide { opacity: 0 !important} </style>
+    <style>.async-hide { opacity: 0 !important} 
+body {
+    font-family: 'Assistant';font-size: 22px;
+}
+</style>
     <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
 h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
@@ -31,6 +36,17 @@ document.addEventListener('dblclick', function(event) {
     </script>
   </head>
   <body id="container" class="container">
+  <p>Desktop:
+<br> 
+<br>	- Click and drag to pan.
+<br>	- Shift/Control click to zoom.
+<br>	- Double click to place a pixel.
+<br> 
+<br>Mobile:
+<br> 
+<br>	- Drag to pan
+<br>	- Pinch to zoom.
+<br>	- Double tap to place a pixel.</p>
     <main id="content" class="content">
       <noscript>
         <img class="viewport" src="viewport.png" width="100%" height="100%"/>
