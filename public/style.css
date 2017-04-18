@@ -19,13 +19,6 @@
   overflow: hidden;
 }
 
-.hint {
-  background-color: whitesmoke;
-  font-size: 1.5rem;
-  margin: 1rem;
-  text-align: center;
-}
-
 .viewport {
   background-color: whitesmoke;
   position: absolute;
@@ -86,12 +79,6 @@
   .palette .swatch {
     display: inline-block;
   }
-}
-
-.adsbygoogle {
-  display: block;
-  text-align: center;
-  width: 100%;
 }
 
 @keyframes fade-out {

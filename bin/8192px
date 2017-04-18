@@ -12,7 +12,7 @@ var filepath = path.join('public', 'viewport.png');
 var timeout = null;
 
 if (!fs.existsSync(filepath)) {
-  ps.execSync('convert -size 2x2 -depth 8 xc:white ' + filepath);
+  ps.execSync('convert -size 500x500 -depth 8 xc:white ' + filepath);
 }
 
 var bitmap = {
